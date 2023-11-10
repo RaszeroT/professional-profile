@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Noto+Serif:ital,wght@1,100&family=Oswald&family=Pixelify+Sans&display=swap');
+
+
+
+* {
+    background-color: rgb(31, 26, 26);
+    color: #777;
+    font-family: 'Noto Serif', serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+.nav ul {
+    margin: 0px;
+}
+
+.main-nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    text-decoration: none;
+    padding: .3em;
+    margin: .5em;
+}
+
+.nav a:hover{
+    background-color: rgb(38, 37, 37);
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.main-nav ul {
+    border-bottom: solid #777;
+    border-radius: 20%;
+
+}
+
+.main-nav li {
+    padding: 0 2.5%;
+
+}
+
+.title {
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+
+}
+
+.title-about {
+    font-size: 2em;
+}
+
+.name-main {
+    text-align: center;
+    padding: 1em auto;
+    margin: 0;
+    font-size: 3em;
+}
+
+.hero-div {
+margin: 0;
+}
+
+.hero {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 35%;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+
+.container-section h2 {
+ text-align: center;
+}
+
+.container-section {
+    margin: 1em auto 3em 4em;
+    flex-wrap: wrap;
+}
+
+.self-img {
+    float: left;
+    border-radius: 100px;
+    margin: .5em;
+}
+
+footer {
+    border-top: solid #777;
+    width: 100%;
+}
+
+.footer-nav {
+    margin: 0;
+    border-radius: 20%;
+    padding: 0;
+}
+
+.footer-nav ul {
+    width: fit-content;
+}
+
+.footer-nav h3 {
+    font-size: 1.5em;
+    width: fit-content;
+}
+
+
+.footer-nav-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+
