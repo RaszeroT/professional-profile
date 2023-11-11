@@ -1,18 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Noto+Serif:ital,wght@1,100&family=Oswald&family=Pixelify+Sans&display=swap');
+ 
 
-
-
+/* Universal, html and body selectors */
 * {
     background-color: rgb(31, 26, 26);
     color: #777;
     font-family: 'Noto Serif', serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 html, body {
     margin: 0;
     padding: 0;
 }
+/* ----------------------------------------------- */
 
+/* Nav bar selectors */
 header {
     position: sticky;
     top: 0;
@@ -22,7 +28,7 @@ header {
     margin: 0px;
 }
 
-.main-nav li {
+.nav li {
     display: inline;
 }
 
@@ -37,22 +43,24 @@ header {
     background-color: rgb(38, 37, 37);
 }
 
-.main-nav {
+.nav {
     text-align: center;
     font-size: 1.1em;
 }
 
-.main-nav ul {
+.nav ul {
     border-bottom: solid #777;
     border-radius: 20%;
 
 }
 
-.main-nav li {
+.nav li {
     padding: 0 2.5%;
 
 }
+/* -------------------------------------- */
 
+/* H1,2,3 (title) selectors */
 .title {
     font-family: 'Oswald', sans-serif;
     font-weight: normal;
@@ -69,26 +77,38 @@ header {
     margin: 0;
     font-size: 3em;
 }
+/* --------------------------------------- */
 
+/* hero/div picture index html  */
 .hero-div {
 margin: 0;
 }
 
 .hero {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+/* ----------------------------------------- */
+
+/* Professional summary container */
+.pro-summary-container {
+    text-align: center;
+    padding: 0 25% 0 25%;
 }
 
+/* ----------------------------------------- */
+
+/* About me container */
 .container {
     margin: 0 auto;
     max-width: 1000px;
 }
 
-
 .container-section h2 {
  text-align: center;
+ padding-right: 16em;
 }
 
 .container-section {
@@ -96,12 +116,18 @@ margin: 0;
     flex-wrap: wrap;
 }
 
+/* ------------------------------------- */
+
+/* Self portrait image */
 .self-img {
     float: left;
     border-radius: 100px;
     margin: .5em;
 }
 
+/* ------------------------------------ */
+
+/* Footer container  */
 footer {
     border-top: solid #777;
     width: 100%;
@@ -128,5 +154,11 @@ footer {
     justify-content: space-around;
     padding: 1em;
 }
+
+.footer-btn:hover {
+    background-color: rgb(38, 37, 37);
+}
+
+/* ----------------------------------------- */
 
 
