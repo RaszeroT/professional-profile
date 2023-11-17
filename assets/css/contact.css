@@ -1,7 +1,67 @@
 
 
-
+/* Contact form container */
 
 .contact-input {
     text-align: center;
+}
+
+/* ------------------------------------- */
+
+/* Form inputs boxes */
+
+.input {
+    font-size: 1em;
+    margin: .5em;
+    padding: .25em;
+    width: 15em;
+    background-color: #777;
+    color: rgb(31, 26, 26);
+}
+
+input::placeholder {
+    color: rgb(31, 26, 26);
+}
+
+input:focus::-webkit-input-placeholder,
+textarea:focus::-webkit-input-placeholder {
+    opacity: 0;
+}
+
+input:focus::-moz-placeholder,
+textarea:focus::-moz-placeholder {
+    opacity: 0;
+}
+
+input:focus::-ms-placeholder,
+textarea:focus::-ms-placeholder {
+    opacity: 0;
+}
+
+#text-input {
+    height: 15em;
+    width: 30em;
+}
+
+#text-input::placeholder {
+    color: rgb(31, 26, 26);
+}
+
+/* ------------------------------------ */
+
+/* submit btn */
+
+#contact-submit-btn {
+    margin: 1em;
+    padding: 1.25%;
+    font-size: 2em;
+    font-weight: bold;
+    border-radius: 40%;
+    background-color: #777;
+    color: black;
+}
+
+#contact-submit-btn:hover {
+    cursor: pointer;
+    background-color: rgb(31, 26, 26);
 }
