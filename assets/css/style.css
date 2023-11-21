@@ -69,11 +69,8 @@ header {
 .title {
     font-family: 'Oswald', sans-serif;
     font-weight: normal;
-
-}
-
-.title-left {
     font-size: 2em;
+
 }
 
 .name-main {
@@ -108,7 +105,7 @@ margin: 0;
 /* About me container */
 .container {
     margin: 0 auto;
-    max-width: 1000px;
+    max-width: 1300px;
 }
 
 .container-section h2 {
@@ -127,7 +124,7 @@ margin: 0;
 .self-img {
     float: left;
     border-radius: 100px;
-    margin: .5em;
+    margin: 20px 30px 15px 0;
 }
 
 /* ------------------------------------ */

@@ -5,9 +5,9 @@ const contactSubmitBtn = document.getElementById("contact-submit-btn");
 // this function creates a pop up window for contact me page
 function contactPopUp() {
   if (window.innerWidth < 1024) {
-    window.open("../../contact.html");
+    window.open("../../html/contact.html");
   } else {
-    window.open("../../contact.html", "_blank", windowFeatures);
+    window.open("../../html/contact.html", "_blank", windowFeatures);
   }
 }
 
@@ -35,5 +35,12 @@ function sendEmail() {
     .catch();
 }
 
+// window.close after email is sent on same click as submit.
+
+
 contactMeBtn.addEventListener("click", contactPopUp);
-// contactSubmitBtn.addEventListener("click", sendEmail);
+contactSubmitBtn.addEventListener("click", () => {
+  sendEmail();
+  // closePopUp();
+});
+w
