@@ -3,13 +3,13 @@ const windowFeatures = "left=500, top=150, width=600, height=700";
 const contactSubmitBtn = document.getElementById("contact-submit-btn");
 
 // this function creates a pop up window for contact me page
-function contactPopUp() {
-  if (window.innerWidth < 1024) {
-    window.open("../../html/contact.html");
-  } else {
-    window.open("contact.html", "_blank", windowFeatures);
-  }
-}
+// function contactPopUp() {
+//   if (window.innerWidth < 1024) {
+//     window.open("../../html/contact.html");
+//   } else {
+//     window.open("contact.html", "_blank", windowFeatures);
+//   }
+// }
 
 // this function send email direct from contact me input using emailjs API
 function sendEmail() {
@@ -37,9 +37,9 @@ function sendEmail() {
 
 // window.close after email is sent on same click as submit.
 
-contactMeBtn.addEventListener("click", contactPopUp);
+// contactMeBtn.addEventListener("click", contactPopUp);
 
-contactSubmitBtn.addEventListener("click", () => {
-  sendEmail();
-});
-w;
+// contactSubmitBtn.addEventListener("click", () => {
+//   sendEmail();
+// });
+
