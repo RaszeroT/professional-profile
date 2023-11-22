@@ -39,6 +39,7 @@ function sendEmail() {
 
 
 contactMeBtn.addEventListener("click", contactPopUp);
+
 contactSubmitBtn.addEventListener("click", () => {
   sendEmail();
   // closePopUp();
