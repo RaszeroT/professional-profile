@@ -23,6 +23,19 @@ input::placeholder {
     color: rgb(31, 26, 26);
 }
 
+#text-input {
+    height: 15em;
+    width: 350px;
+    min-width: fit-content;
+}
+
+#text-input::placeholder {
+    color: rgb(31, 26, 26);
+}
+
+/* ------------------------------------ */
+
+/* This removes placeholder in input once clicked */
 input:focus::-webkit-input-placeholder,
 textarea:focus::-webkit-input-placeholder {
     opacity: 0;
@@ -38,16 +51,7 @@ textarea:focus::-ms-placeholder {
     opacity: 0;
 }
 
-#text-input {
-    height: 15em;
-    width: 30em;
-}
-
-#text-input::placeholder {
-    color: rgb(31, 26, 26);
-}
-
-/* ------------------------------------ */
+/* -------------------------------------- */
 
 /* submit btn */
 
