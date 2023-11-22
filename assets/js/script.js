@@ -1,5 +1,5 @@
 const contactMeBtn = document.getElementById("contact-btn");
-const windowFeatures = "left=500, top=500, width=600, height=700";
+const windowFeatures = "left=500, top=150, width=600, height=700";
 const contactSubmitBtn = document.getElementById("contact-submit-btn");
 
 // this function creates a pop up window for contact me page
@@ -7,7 +7,7 @@ function contactPopUp() {
   if (window.innerWidth < 1024) {
     window.open("../../html/contact.html");
   } else {
-    window.open("../../html/contact.html", "_blank", windowFeatures);
+    window.open("contact.html", "_blank", windowFeatures);
   }
 }
 
@@ -37,11 +37,9 @@ function sendEmail() {
 
 // window.close after email is sent on same click as submit.
 
-
 contactMeBtn.addEventListener("click", contactPopUp);
 
 contactSubmitBtn.addEventListener("click", () => {
   sendEmail();
-  // closePopUp();
 });
-w
+w;
