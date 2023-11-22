@@ -12,8 +12,6 @@ Travis Shanhun - Professional Portfolio
 
 [Link to live site](#link-to-live-site)
 
-[Link to gitHub Repo](#link-to-github-repository)
-
 [Images Of website functionality](#images-of-webpage-functionality)
 
 [License](#license)
@@ -46,7 +44,7 @@ If you would like to view the code for this webpage please visit:
 
 ## Images of webpage functionality:
 
-<img src="./sarasota-hero.jpg" width="300" height="300"> 
+<img src="./assets/images/readme-pic.jpeg" width="300" height="300"> 
 
 ## License
 
