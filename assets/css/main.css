@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Noto+Serif:ital,wght@1,100&family=Oswald&family=Pixelify+Sans&display=swap');
- 
 
 /* Universal, html and body selectors */
 * {
@@ -83,7 +82,6 @@ header {
 /* --------------------------------------- */
 
 /* hero picture index html  */
-
 .hero {
     display: block;
     margin-left: auto;
@@ -155,11 +153,3 @@ footer {
 }
 
 /* ----------------------------------------- */
-
-/* flex to mobile */
-
-/* @media (max-width: 800px) {
-    .flex-container {
-      flex-direction: column;
-    }
-  } */
